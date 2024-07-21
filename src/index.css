@@ -1,22 +1,24 @@
 @font-face {
   font-family: "Oswald";
-  src: url("Oswald\Oswald-VariableFont_wght.ttf") format("truetype");
+  src: url("../public/fonts/Oswald/Oswald-VariableFont_wght.ttf")
+    format("truetype");
 }
 
 @font-face {
   font-family: "Inter";
-  src: url("Inter\Inter-VariableFont_slntwght.ttf") format("truetype");
+  src: url("../public/fonts/Inter/Inter-VariableFont_slnt\,wght.ttf")
+    format("truetype");
 }
 
-h1,
-a {
-  font-weight: bolder;
-  font-family: "Oswald", sans-serif;
-  color: inherit;
+@font-face {
+  font-family: "Lobster";
+  src: url("../public/fonts/Lobster/Lobster-Regular.ttf") format("truetype");
 }
 
-p {
-  font-family: "Inter", sans-serif;
+:root {
+  --Oswald-font: "Oswald", sans-serif;
+  --Inter-font: "Inter", sans-serif;
+  --Lobster-font: "Lobster", sans-serif;
 }
 
 * {
@@ -52,5 +54,6 @@ html {
 
 body {
   min-height: 100vh;
-  background-color: aliceblue;
+  background-color: white;
+  font-family: var(--Inter-font);
 }

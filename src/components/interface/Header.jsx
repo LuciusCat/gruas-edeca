@@ -4,7 +4,7 @@ import { edecaLogo } from "../../../public/img/edeca/index";
 import Carousel from "../ui/Carousel";
 import styleHead from "./styles/header.module.css";
 import styles from "../ui/styles/nav.module.css";
-import Whatsapp from "../../../public/img/redes/Whatsapp";
+import ButtonWtsp from "../ui/ButtonWtsp";
 
 export default function Header() {
   return (
@@ -26,15 +26,13 @@ export default function Header() {
 
           <article className={styleHead.sectionHead__adverstiment}>
             <h2>
-              ¿ Necesitas una <span>GRÚA</span>?
+              ¿Necesitas una <span>GRÚA</span>?
             </h2>
             <h1>
-              ¡ Te contestamos en <span>menos de un minuto</span>!
+              ¡Te contestamos en <span>menos de un minuto</span>!
             </h1>
-            <a href="#">
-              <Whatsapp /> Cotiza con nosotros
-            </a>
           </article>
+          <ButtonWtsp />
         </aside>
         <Carousel />
       </section>
