@@ -1,32 +1,11 @@
-import PropTypes from 'prop-types';
+import PropTypes from "prop-types";
 
-Nav.propTypes = {
-  links: PropTypes.arrayOf(
-    PropTypes.shape({
-      href: PropTypes.string.isRequired,
-      title: PropTypes.string,
-      children: PropTypes.node.isRequired
-    })
-  ),
-  className: PropTypes.string
-};
-
-Nav.defaultProps = {
-  links: [],
-  className: "",
-};
-
-const Nav = ({ links = [], className }) => {
+const Nav = ({ src, alt, links = [], className = "" }) => {
   return (
     <nav className={className}>
-      {links.map(({ href, title, children }, index) => (
-        <a 
-          key={index} 
-          target="_blank" 
-          href={href} 
-          title={title} 
-          rel="noopener noreferrer"
-        >
+      <img src={src} alt={alt} />
+      {links.map(({ href, children }, index) => (
+        <a key={index} target="_blank" href={href} rel="noopener noreferrer">
           {children}
         </a>
       ))}
@@ -34,5 +13,20 @@ const Nav = ({ links = [], className }) => {
   );
 };
 
-export default Nav;
+Nav.propTypes = {
+  links: PropTypes.arrayOf(
+    PropTypes.shape({
+      href: PropTypes.string.isRequired,
+      children: PropTypes.node.isRequired,
+    })
+  ),
+  src: PropTypes.string,
+  alt: PropTypes.string,
+  className: PropTypes.string,
+};
 
+Nav.defaultProps = {
+  links: [],
+};
+
+export default Nav;

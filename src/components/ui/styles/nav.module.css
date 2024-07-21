@@ -1,0 +1,23 @@
+.navHeader {
+  height: 70px;
+  width: 100%;
+  padding: 1%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  a {
+    display: grid;
+    place-content: center;
+    padding: 1%;
+    font-weight: bold;
+    font-size: clamp(1em, 2vw, 3em);
+    transition: scale 0.3s ease;
+    &:hover {
+      scale: 1.05;
+    }
+  }
+  img {
+    width: 150px;
+  }
+}

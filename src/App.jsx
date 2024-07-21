@@ -1,13 +1,12 @@
-import Carousel from './components/ui/Carousel'
-import './App.css'
+import "./App.css";
+import Header from "./components/interface/Header";
 
 function App() {
-return (
-  <>
-  <Carousel />
-  </>
-)
-  
+  return (
+    <>
+      <Header />
+    </>
+  );
 }
 
-export default App
+export default App;
