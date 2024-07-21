@@ -1,0 +1,24 @@
+.carousel {
+    width: 60%;
+    margin-right: auto;
+    margin-left: auto;
+
+    .image-gallery-content .image-gallery-slide .image-gallery-image{
+        border-radius: 20px;   
+        object-fit: cover;
+        object-position: center center;
+        aspect-ratio: 117/88;
+    }
+    
+
+    .image-gallery-thumbnail {
+        .image-gallery-thumbnail-image{
+            height: 50px;
+            object-fit: cover;
+            object-position: center center;
+            &:hover, &:active{
+                scale: 1.02;
+            }
+        } 
+    } 
+}
