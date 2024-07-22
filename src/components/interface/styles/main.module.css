@@ -1,0 +1,10 @@
+.main {
+  width: 70%;
+  margin-inline: auto;
+}
+
+@media (max-width: 768px) {
+  .main {
+    width: 94%;
+  }
+}

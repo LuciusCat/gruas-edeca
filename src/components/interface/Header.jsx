@@ -25,14 +25,16 @@ export default function Header() {
           </article>
 
           <article className={styleHead.sectionHead__adverstiment}>
-            <h2>
-              ¿Necesitas una <span>GRÚA</span>?
-            </h2>
-            <h1>
-              ¡Te contestamos en <span>menos de un minuto</span>!
-            </h1>
+            <div>
+              <h2>
+                ¿Necesitas una <span>GRÚA</span>?
+              </h2>
+              <h1>
+                ¡Te contestamos en <span>menos de un minuto</span>!
+              </h1>
+            </div>
+            <ButtonWtsp />
           </article>
-          <ButtonWtsp />
         </aside>
         <Carousel />
       </section>

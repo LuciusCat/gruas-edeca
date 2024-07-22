@@ -18,9 +18,12 @@
     display: flex;
     flex-direction: column;
     gap: clamp(1em, 6vw, 12em);
+    height: 100%;
   }
 
   .sectionHead__title {
+    height: auto;
+    width: 100%;
     h1 {
       font-size: clamp(2.5em, 5.5vw, 7em);
       font-weight: 900;
@@ -30,25 +33,30 @@
       }
     }
     h3 {
-      margin: 0 2%;
+      margin-left: 2%;
       font-size: clamp(1em, 2vw, 1.5em);
     }
   }
 
   .sectionHead__adverstiment {
-    font-family: var(--Lobster-font);
-    margin: 0 2%;
+    padding: 2%;
+    height: 75%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 25%;
     h1 {
+      font-family: var(--Lobster-font);
       font-size: clamp(2em, 3vw, 3em);
-      font-weight: 700;
+      font-weight: 400;
       span {
         color: goldenrod;
         font-weight: 900;
       }
       h2 {
-        font-family: var(--Lobster-font);
+        font-family: var(--ArchivoBlack-font);
         font-size: clamp(1em, 2vw, 1.5em);
-        font-weight: 700;
+        font-weight: 600;
         span {
           font-weight: 900;
         }
@@ -57,20 +65,19 @@
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
   .header {
     overflow: hidden;
   }
   .sectionHead {
     display: flex;
     flex-direction: column;
+    align-items: center;
     text-align: center;
     gap: 2em;
-  }
-}
 
-@media (min-width: 768px) {
-  body {
-    background-color: lightcoral;
+    .sectionHead__adverstiment {
+      gap: 2em;
+    }
   }
 }

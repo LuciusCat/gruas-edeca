@@ -15,10 +15,17 @@
   src: url("../public/fonts/Lobster/Lobster-Regular.ttf") format("truetype");
 }
 
+@font-face {
+  font-family: "Archivo Black";
+  src: url("../public/fonts/ArchivoBlack/ArchivoBlack-Regular.ttf")
+    format("truetype");
+}
+
 :root {
   --Oswald-font: "Oswald", sans-serif;
   --Inter-font: "Inter", sans-serif;
   --Lobster-font: "Lobster", sans-serif;
+  --ArchivoBlack-font: "Archivo Black", sans-serif;
 }
 
 * {

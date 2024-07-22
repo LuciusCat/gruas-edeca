@@ -1,10 +1,7 @@
 .carousel {
   width: 100%;
-  margin-right: auto;
-  margin-left: auto;
-
+  padding: 2%;
   .image-gallery-content .image-gallery-slide .image-gallery-image {
-    border-radius: 20px;
     object-fit: cover;
     object-position: center center;
     aspect-ratio: 117/88;
@@ -20,11 +17,5 @@
         scale: 1.02;
       }
     }
-  }
-}
-
-@media (max-width: 600px) {
-  .carousel {
-    width: 90%;
   }
 }
