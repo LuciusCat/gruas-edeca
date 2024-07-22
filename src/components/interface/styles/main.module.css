@@ -8,3 +8,13 @@
     width: 94%;
   }
 }
+
+.section__services {
+  border-radius: 20px;
+  background-color: red;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 20px;
+}

@@ -1,0 +1,30 @@
+.cardServices {
+  width: 45%;
+  height: auto;
+  border-radius: 20px;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  flex-direction: space-around;
+  align-items: center;
+  padding: 2%;
+
+  @media (max-width: 768px) {
+    width: 98%;
+  }
+
+  h3 {
+    height: 25%;
+    color: white;
+    text-align: center;
+    font-family: var(--Oswald-font);
+    font-size: clamp(1.5em, 2vw, 2em);
+  }
+  img {
+    height: 75%;
+    aspect-ratio: 2 / 1;
+    border-radius: 20px;
+    object-position: center center;
+    border: 5px double white;
+  }
+}
