@@ -1,5 +1,5 @@
 import Nav from "../ui/Nav";
-import { navHeaderData } from "../data/navData";
+import { navHeaderData } from "../../data/navData";
 import { edecaLogo } from "../../../public/img/edeca/index";
 import Carousel from "../ui/Carousel";
 import styleHead from "./styles/header.module.css";

@@ -7,6 +7,7 @@ import {
   vehiculosPesados,
   alquiler,
 } from "../../../public/img/servicios/index";
+import Clients from "../ui/Clients";
 
 export default function Main() {
   return (
@@ -45,6 +46,7 @@ export default function Main() {
             text="Contamos con una flota de grúas de diferentes capacidades para el alquiler en Lima y provincias del Perú. Atendemos las 24 horas del día."
           />
         </section>
+        <Clients />
       </section>
     </main>
   );
