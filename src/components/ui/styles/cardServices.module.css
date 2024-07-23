@@ -1,30 +1,53 @@
 .cardServices {
+  border-radius: 5px;
+  background-color: hsl(0, 0%, 12%);
   width: 45%;
   height: auto;
-  border-radius: 20px;
-  color: black;
   display: flex;
   flex-direction: column;
-  flex-direction: space-around;
-  align-items: center;
-  padding: 2%;
+  color: hsl(0, 0%, 100%);
+  gap: 10px;
+  overflow: hidden;
 
   @media (max-width: 768px) {
     width: 98%;
   }
 
-  h3 {
-    height: 25%;
-    color: white;
-    text-align: center;
-    font-family: var(--Oswald-font);
-    font-size: clamp(1.5em, 2vw, 2em);
+  .cardServices__body {
+    height: 40%;
+    padding: 10px;
+    display: grid;
+    gap: 10px;
+
+    h3 {
+      font-family: var(--Oswald-font);
+      font-size: clamp(1.5em, 2vw, 2em);
+      color: rgb(136, 226, 59);
+    }
   }
+
+  a {
+    display: grid;
+    place-content: center;
+    border-radius: 5px;
+    height: 10%;
+    font-weight: 700;
+    margin: 0 10px 10px 10px;
+    padding: 10px;
+    background-color: hsl(0, 0%, 20%);
+    color: hsl(0, 0%, 100%);
+    width: fit-content;
+    transition: all 0.5s ease;
+    &:hover {
+      scale: 1.02;
+      background-color: rgb(136, 226, 59);
+      color: hsl(0, 0%, 12%);
+    }
+  }
+
   img {
-    height: 75%;
+    height: 50%;
     aspect-ratio: 2 / 1;
-    border-radius: 20px;
     object-position: center center;
-    border: 5px double white;
   }
 }

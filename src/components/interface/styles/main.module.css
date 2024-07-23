@@ -1,6 +1,9 @@
 .main {
   width: 70%;
   margin-inline: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
 @media (max-width: 768px) {
@@ -9,12 +12,21 @@
   }
 }
 
-.section__services {
-  border-radius: 20px;
-  background-color: red;
-  display: flex;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  gap: 20px;
+.services {
+  border-radius: 5px;
+  background-color: hsl(0, 0%, 8%);
+  padding: 10px;
+  h2 {
+    color: hsl(0, 0%, 100%);
+    font-weight: 800;
+    text-align: center;
+    margin: 10px;
+  }
+  .services__card {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+  }
 }
