@@ -46,8 +46,8 @@ export default function Main() {
             text="Contamos con una flota de grúas de diferentes capacidades para el alquiler en Lima y provincias del Perú. Atendemos las 24 horas del día."
           />
         </section>
-        <Clients />
       </section>
+      <Clients />
     </main>
   );
 }

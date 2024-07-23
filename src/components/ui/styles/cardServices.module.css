@@ -10,7 +10,7 @@
   overflow: hidden;
 
   @media (max-width: 768px) {
-    width: 98%;
+    width: 90%;
   }
 
   .cardServices__body {
@@ -23,6 +23,11 @@
       font-family: var(--Oswald-font);
       font-size: clamp(1.5em, 2vw, 2em);
       color: rgb(136, 226, 59);
+    }
+
+    p {
+      font-size: clamp(1em, 2vw, 1.5em);
+      text-wrap: pretty;
     }
   }
 

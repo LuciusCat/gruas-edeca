@@ -41,7 +41,7 @@
     font-size: clamp(2em, 4vw, 5em);
     text-align: center;
     font-style: italic;
-    font-family: var(--Oswald-font);
+    font-family: var(--ArchivoBlack-font);
     font-weight: 700;
     gap: 10px;
     span {

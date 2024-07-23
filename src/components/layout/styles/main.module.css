@@ -3,24 +3,19 @@
   margin-inline: auto;
   display: flex;
   flex-direction: column;
-  gap: 20px;
-}
-
-@media (max-width: 768px) {
-  .main {
-    width: 94%;
-  }
+  gap: 30px;
 }
 
 .services {
-  border-radius: 5px;
   background-color: hsl(0, 0%, 8%);
   padding: 10px;
   h2 {
+    font-family: var(--ArchivoBlack-font);
+    font-size: clamp(1.5em, 2.5vw, 3em);
     color: hsl(0, 0%, 100%);
-    font-weight: 800;
+    font-weight: 600;
     text-align: center;
-    margin: 10px;
+    margin: 10px 0px 20px 0px;
   }
   .services__card {
     display: flex;

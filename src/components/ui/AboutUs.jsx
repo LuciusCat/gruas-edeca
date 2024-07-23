@@ -6,7 +6,7 @@ export default function AboutUs() {
     <>
       <article className={styles.aboutUs}>
         <h2>
-          Grúas <span>Edeca</span>
+          GRÚAS <span>EDECA</span>
         </h2>
         <h3>
           <FastClock /> <span>24 horas</span> al día los <span>7 días</span> de

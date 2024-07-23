@@ -25,6 +25,7 @@
     height: auto;
     width: 100%;
     h1 {
+      font-family: var(--ArchivoBlack-font);
       font-size: clamp(2.5em, 5.5vw, 7em);
       font-weight: 900;
       font-style: italic;
