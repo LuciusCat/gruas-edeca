@@ -1,0 +1,26 @@
+.infoFooter {
+  height: 100%;
+  width: 25%;
+  display: grid;
+  gap: 15px;
+
+  h3 {
+    font-size: clamp(1em, 3vw, 2em);
+    font-style: italic;
+    font-family: var(--ArchivoBlack-font);
+    font-weight: 700;
+    span {
+      color: red;
+    }
+  }
+
+  p {
+    font-family: var(--OpenSans-font);
+    font-size: clamp(1em, 2vw, 1.5em);
+    font-weight: 400;
+    text-wrap: pretty;
+    span {
+      font-weight: bold;
+    }
+  }
+}

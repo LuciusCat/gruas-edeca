@@ -1,0 +1,21 @@
+import SocialLinks from "./SocialLinks";
+import { redes } from "../../assets/redes";
+import styles from "./styles/infoFooter.module.css";
+
+export default function InfoFooter() {
+  return (
+    <article className={styles.infoFooter}>
+      <h3>
+        Grúas <span>Edeca</span>
+      </h3>
+      <p>
+        Servicio de grúa rápido y seguro en Lima las 24 horas, con atención
+        inmediata. Especializado en traslado de autos, camionetas, camiones y
+        maquinaria pesada. Contamos con grúas de alta capacidad operadas por
+        profesionales capacitados.
+      </p>
+
+      <SocialLinks redes={redes} />
+    </article>
+  );
+}
