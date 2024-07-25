@@ -2,8 +2,8 @@ function Whatsapp() {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      width="48"
-      height="48"
+      width="30"
+      height="30"
       clipRule="evenodd"
       viewBox="0 0 48 48"
     >

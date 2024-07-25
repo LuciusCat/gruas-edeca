@@ -1,15 +1,11 @@
 .header {
   display: flex;
   flex-direction: column;
-  height: auto;
   gap: 50px;
   padding: 1%;
-  margin-inline: auto;
 }
 
 .sectionHead {
-  height: 100%;
-  width: 100%;
   display: grid;
   grid-template-columns: 50% 50%;
   align-items: flex-start;
@@ -22,8 +18,6 @@
   }
 
   .sectionHead__title {
-    height: auto;
-    width: 100%;
     h1 {
       font-family: var(--ArchivoBlack-font);
       font-size: clamp(2.5em, 5.5vw, 7em);
@@ -45,22 +39,30 @@
     width: 100%;
     display: flex;
     flex-direction: column;
-    gap: 25%;
+    gap: 20%;
     h1 {
+      width: 90%;
       font-family: var(--Lobster-font);
-      font-size: clamp(2em, 3vw, 3em);
+      font-size: clamp(1.5em, 3vw, 3em);
       font-weight: 400;
       span {
         color: goldenrod;
         font-weight: 900;
       }
-      h2 {
+
+      @media (max-width: 768px) {
+        margin-inline: auto;
+        text-wrap: pretty;
+        width: 95%;
+        text-align: center;
+      }
+    }
+    h2 {
+      font-size: clamp(1em, 2vw, 2em);
+      font-weight: 600;
+      span {
         font-family: var(--ArchivoBlack-font);
-        font-size: clamp(1em, 2vw, 1.5em);
-        font-weight: 600;
-        span {
-          font-weight: 900;
-        }
+        font-weight: 700;
       }
     }
   }

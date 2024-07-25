@@ -1,12 +1,9 @@
 .buttonWtsp {
-  font-family: var(--Inter-font);
-  font-size: clamp(1em, 1.2vw, 3em);
   margin-inline: auto;
-  color: white;
-  font-weight: 800;
-  height: 100px;
-  width: clamp(400px, 50%, 800px);
+  height: fit-content;
+  width: fit-content;
   display: flex;
+  justify-content: space-evenly;
   align-items: center;
   padding: 10px 30px;
   border-radius: 20px;
@@ -17,20 +14,23 @@
   box-shadow: 0 4px 0px rgba(40, 214, 104, 0.5),
     0 -4px 0cm rgba(40, 214, 104, 0.5), 4px 0 0px rgba(40, 214, 104, 0.5),
     -4px 0 0px rgba(40, 214, 104, 0.5);
+
   &:hover {
     scale: 1.05;
     box-shadow: 0 4px 4px rgba(40, 214, 104, 0.5),
       0 -4px 0cm rgba(40, 214, 104, 0.5), 4px 0 4px rgba(40, 214, 104, 0.5),
       -4px 0 4px rgba(40, 214, 104, 0.5);
   }
-  svg {
-    width: 30%;
-    height: 100%;
-  }
-}
 
-@media (max-width: 600px) {
-  .buttonWtsp {
-    width: 80%;
+  p {
+    font-size: clamp(1em, 2vw, 3em);
+    font-weight: 700;
+    color: white;
+    text-align: center;
+  }
+
+  svg {
+    width: clamp(35px, 3vw, 50px);
+    height: clamp(35px, 3vw, 50px);
   }
 }

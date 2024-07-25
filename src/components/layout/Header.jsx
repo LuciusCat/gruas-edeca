@@ -5,6 +5,7 @@ import Carousel from "../ui/Carousel";
 import styleHead from "./styles/header.module.css";
 import styles from "../ui/styles/nav.module.css";
 import ButtonWtsp from "../ui/ButtonWtsp";
+import Counter from "../logic/Counter";
 
 export default function Header() {
   return (
@@ -30,9 +31,10 @@ export default function Header() {
                 ¿Necesitas una <span>GRÚA</span>?
               </h2>
               <h1>
-                ¡Te contestamos en <span>menos de un minuto</span>!
+                ¡Te contestamos en <span>menos de un minuto</span> <Counter />!
               </h1>
             </div>
+
             <ButtonWtsp />
           </article>
         </aside>
