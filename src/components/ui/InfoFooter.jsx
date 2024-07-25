@@ -1,5 +1,4 @@
-import SocialLinks from "./SocialLinks";
-import { redes } from "../../assets/redes";
+import { grua } from "../../../public/img/edeca";
 import styles from "./styles/infoFooter.module.css";
 
 export default function InfoFooter() {
@@ -15,7 +14,7 @@ export default function InfoFooter() {
         profesionales capacitados.
       </p>
 
-      <SocialLinks redes={redes} />
+      <img src={grua} alt="Grúa blanco y negro" />
     </article>
   );
 }
