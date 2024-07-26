@@ -1,0 +1,9 @@
+.form {
+  background-color: aqua;
+
+  fieldset {
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+  }
+}

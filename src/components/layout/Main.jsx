@@ -8,6 +8,7 @@ import {
   alquiler,
 } from "../../../public/img/servicios/index";
 import Clients from "../ui/Clients";
+import ContactMain from "../ui/ContactMain";
 
 export default function Main() {
   return (
@@ -48,6 +49,7 @@ export default function Main() {
         </section>
       </section>
       <Clients />
+      <ContactMain />
     </main>
   );
 }
