@@ -4,7 +4,7 @@ import styles from "./styles/aboutUs.module.css";
 export default function AboutUs() {
   return (
     <>
-      <article className={styles.aboutUs}>
+      <article className={styles.aboutUs} id="aboutUsLink">
         <h2>
           GRÚAS <span>EDECA</span>
         </h2>

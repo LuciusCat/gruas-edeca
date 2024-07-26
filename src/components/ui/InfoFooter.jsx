@@ -3,7 +3,7 @@ import styles from "./styles/infoFooter.module.css";
 
 export default function InfoFooter() {
   return (
-    <article className={styles.infoFooter}>
+    <article id="aboutLink" className={styles.infoFooter}>
       <h3>
         Grúas <span>Edeca</span>
       </h3>

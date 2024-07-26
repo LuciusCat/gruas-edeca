@@ -16,7 +16,7 @@ export default function Main() {
       <section>
         <AboutUs />
       </section>
-      <section className={styles.services}>
+      <section id="servicesLink" className={styles.services}>
         <h2>Nuestros servicios</h2>
         <section className={styles.services__card}>
           <CardServices

@@ -5,7 +5,7 @@ function SocialLinks({ redes }) {
   return (
     <div className={styles.socialLinks}>
       {redes.map(({ href, src, alt }, index) => (
-        <a href={href} key={index}>
+        <a href={href} key={index} target="_blank" rel="noopener noreferrer">
           <img src={src} alt={alt} />
         </a>
       ))}

@@ -1,6 +1,6 @@
 export const servicesFooterData = [
-  { href: "a", text: "Auxilio mecánico" },
-  { href: "a", text: "Traslado de maquinaria" },
-  { href: "a", text: "Transporte de vehículos" },
-  { href: "a", text: "Alquiler de grúas" },
+  { href: "#servicesLink", text: "Auxilio mecánico" },
+  { href: "#servicesLink", text: "Traslado de maquinaria" },
+  { href: "#servicesLink", text: "Transporte de vehículos" },
+  { href: "#servicesLink", text: "Alquiler de grúas" },
 ];

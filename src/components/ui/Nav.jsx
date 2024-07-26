@@ -5,7 +5,7 @@ const Nav = ({ src, alt, links = [], className = "" }) => {
     <nav className={className}>
       <img src={src} alt={alt} />
       {links.map(({ href, children }, index) => (
-        <a key={index} target="_blank" href={href} rel="noopener noreferrer">
+        <a key={index} href={href}>
           {children}
         </a>
       ))}

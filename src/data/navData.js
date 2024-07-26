@@ -1,7 +1,8 @@
 export const navHeaderData = [
-  { href: "#", children: "Inicio" },
-  { href: "#", children: "Acerca de nosotros" },
-  { href: "#", children: "Servicios" },
-  { href: "#", children: "Contacto" },
-  { href: "#", children: "Acerca de" },
+  { href: "#homeLink", children: "Inicio" },
+  { href: "#aboutUsLink", children: "Acerca de nosotros" },
+  { href: "#servicesLink", children: "Servicios" },
+  { href: "#clientsLink", children: "Clientes" },
+  { href: "#contactMainLink", children: "Contacto" },
+  { href: "#aboutLink", children: "Acerca de" },
 ];

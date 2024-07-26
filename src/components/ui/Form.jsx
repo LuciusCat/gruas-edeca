@@ -11,7 +11,8 @@ export default function Form() {
           id="name"
           name="name"
           required
-          placeholder="Nombre"
+          placeholder="Ingrese su nombre"
+          autoComplete="name"
         />
         <label htmlFor="email">Correo:</label>
         <input
@@ -19,7 +20,8 @@ export default function Form() {
           id="email"
           name="email"
           required
-          placeholder="Correo"
+          placeholder="usuario@example.com"
+          autoComplete="email"
         />
         <label htmlFor="message">Mensaje:</label>
         <textarea
