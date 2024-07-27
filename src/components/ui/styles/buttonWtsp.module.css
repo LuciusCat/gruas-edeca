@@ -8,8 +8,8 @@
   padding: 10px 30px;
   border-radius: 20px;
   gap: 20px;
-  border: 10px solid white;
-  background-color: #28d668;
+  border: 10px solid var(--white-color);
+  background-color: var(--whatsapp-color);
   transition: scale 0.3s ease;
   box-shadow: 0 4px 0px rgba(40, 214, 104, 0.5),
     0 -4px 0cm rgba(40, 214, 104, 0.5), 4px 0 0px rgba(40, 214, 104, 0.5),
@@ -25,7 +25,7 @@
   p {
     font-size: clamp(1em, 2vw, 3em);
     font-weight: 700;
-    color: white;
+    color: var(--white-color);
     text-align: center;
   }
 

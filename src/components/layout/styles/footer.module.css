@@ -2,8 +2,7 @@
   display: flex;
   flex-wrap: wrap;
   margin-inline: auto;
-  background-color: hsl(0, 0%, 12%);
-  color: hsl(0, 0%, 100%);
+  background-color: var(--black-color);
   padding: 30px;
 
   @media (max-width: 768px) {

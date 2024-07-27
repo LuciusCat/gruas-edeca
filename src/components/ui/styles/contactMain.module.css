@@ -18,15 +18,15 @@
       display: flex;
       flex-direction: column;
       gap: 10px;
-      color: white;
-      background-color: #142d4ced;
+      color: var(--white-color);
+      background-color: var(--secondary-color);
       border-radius: 10px;
       padding: 20px;
     }
 
     figure {
-      background-color: aliceblue;
-      border: 3px solid #142d4ced;
+      background-color: var(--tertiary-color);
+      border: 3px solid var(--secondary-color);
       border-radius: 10px;
       padding: 20px;
 
@@ -38,7 +38,6 @@
       }
 
       iframe {
-        border: 2px solid #142d4ced;
         border-radius: 10px;
         height: 200px;
       }

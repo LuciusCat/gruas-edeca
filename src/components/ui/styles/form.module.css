@@ -1,6 +1,6 @@
 .form {
   fieldset {
-    background-color: #142d4ced;
+    background-color: var(--secondary-color);
     border-radius: 10px;
     height: 100%;
     width: 100%;
@@ -13,26 +13,26 @@
     legend {
       font-size: clamp(1em, 1.3vw, 2em);
       font-weight: 600;
-      color: #142d4ced;
-      background-color: aliceblue;
+      color: var(--secondary-color);
+      background-color: var(--tertiary-color);
       border-radius: 10px;
       padding: 5px;
     }
 
     label {
-      color: white;
+      color: var(--white-color);
       font-weight: 600;
       font-size: clamp(1em, 1vw, 1.5em);
     }
 
     input {
-      background-color: aliceblue;
+      background-color: var(--tertiary-color);
       border-radius: 10px;
       padding: 10px;
     }
 
     textarea {
-      background-color: aliceblue;
+      background-color: var(--tertiary-color);
       resize: none;
       height: 150px;
       border-radius: 10px;
@@ -41,8 +41,8 @@
 
     button {
       width: 30%;
-      background-color: aliceblue;
-      color: #142d4ced;
+      background-color: var(--tertiary-color);
+      color: var(--secondary-color);
       font-size: clamp(1em, 1.5vw, 2em);
       font-weight: 700;
       border: none;
@@ -51,8 +51,8 @@
       cursor: pointer;
       transition: background-color 0.3s ease;
       &:hover {
-        background-color: darkblue;
-        color: white;
+        background-color: rgb(3, 3, 95);
+        color: var(--white-color);
       }
     }
   }

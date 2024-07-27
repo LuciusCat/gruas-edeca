@@ -1,11 +1,11 @@
 .cardServices {
   border-radius: 5px;
-  background-color: hsl(0, 0%, 12%);
+  background-color: var(--darkgray-color);
   width: 45%;
   height: auto;
   display: flex;
   flex-direction: column;
-  color: hsl(0, 0%, 100%);
+  color: var(--white-color);
   gap: 10px;
   overflow: hidden;
 
@@ -22,7 +22,7 @@
     h3 {
       font-family: var(--Oswald-font);
       font-size: clamp(1.5em, 2vw, 2em);
-      color: rgb(136, 226, 59);
+      color: var(--green-color);
     }
 
     p {
@@ -39,14 +39,14 @@
     font-weight: 700;
     margin: 0 10px 10px 10px;
     padding: 10px;
-    background-color: hsl(0, 0%, 20%);
-    color: hsl(0, 0%, 100%);
+    background-color: var(--gray-color);
+    color: var(--white-color);
     width: fit-content;
     transition: all 0.5s ease;
     &:hover {
       scale: 1.02;
-      background-color: rgb(136, 226, 59);
-      color: hsl(0, 0%, 12%);
+      background-color: var(--green-color);
+      color: var(--darkgray-color);
     }
   }
 

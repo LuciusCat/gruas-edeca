@@ -25,8 +25,4 @@ Nav.propTypes = {
   className: PropTypes.string,
 };
 
-Nav.defaultProps = {
-  links: [],
-};
-
 export default Nav;

@@ -1,5 +1,4 @@
 .clients__container {
-  background-color: white;
   width: 100%;
   display: grid;
   grid-template-columns: repeat(6, 1fr);
@@ -10,12 +9,12 @@
 .clients__title {
   height: 200px;
   background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
-  color: #142d4c;
+  color: var(--secondary-color);
   text-align: center;
   font-size: clamp(1.5em, 2.5vw, 3em);
   display: grid;
   place-content: center;
-  border: 10px solid #142d4c;
+  border: 10px solid var(--secondary-color);
   border-left: 0;
   border-right: 0;
   font-weight: 600;

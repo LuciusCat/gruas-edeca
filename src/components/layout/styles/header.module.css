@@ -1,8 +1,12 @@
 .header {
   display: flex;
   flex-direction: column;
-  gap: 50px;
+  gap: 40px;
   padding: 1%;
+  color: var(--black-color);
+  @media (max-width: 768px) {
+    margin-top: 20px;
+  }
 }
 
 .sectionHead {
@@ -24,7 +28,7 @@
       font-weight: 900;
       font-style: italic;
       span {
-        color: red;
+        color: var(--primary-color);
       }
     }
     h3 {
@@ -46,7 +50,7 @@
       font-size: clamp(1.5em, 3vw, 3em);
       font-weight: 400;
       span {
-        color: goldenrod;
+        color: var(--important-color);
         font-weight: 900;
       }
 

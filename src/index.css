@@ -22,10 +22,23 @@
 }
 
 :root {
+  /*FONTS*/
   --Oswald-font: "Oswald", sans-serif;
   --Inter-font: "Inter", sans-serif;
   --Lobster-font: "Lobster", sans-serif;
   --ArchivoBlack-font: "Archivo Black", sans-serif;
+
+  /*COLORS*/
+  --primary-color: red;
+  --secondary-color: #142d4ced;
+  --tertiary-color: aliceblue;
+  --important-color: goldenrod;
+  --whatsapp-color: #28d668;
+  --white-color: hsl(0, 0%, 100%);
+  --black-color: hsl(0, 0%, 8%);
+  --gray-color: hsl(0, 0%, 20%);
+  --darkgray-color: hsl(0, 0%, 12%);
+  --green-color: rgb(136, 226, 59);
 }
 
 * {
@@ -61,6 +74,6 @@ html {
 
 body {
   min-height: 100vh;
-  background-color: white;
+  color: var(--white-color);
   font-family: var(--Inter-font);
 }

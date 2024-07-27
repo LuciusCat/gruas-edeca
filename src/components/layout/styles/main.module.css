@@ -1,18 +1,20 @@
 .main {
+  color: var(--black-color);
   width: 100%;
   margin-inline: auto;
   display: flex;
   flex-direction: column;
-  gap: 30px;
+  gap: 50px;
+  margin: 10px 0px;
 }
 
 .services {
-  background-color: hsl(0, 0%, 8%);
+  background-color: var(--black-color);
   padding: 10px;
   h2 {
     font-family: var(--ArchivoBlack-font);
     font-size: clamp(1.5em, 2.5vw, 3em);
-    color: hsl(0, 0%, 100%);
+    color: var(--white-color);
     font-weight: 600;
     text-align: center;
     margin: 10px 0px 20px 0px;

@@ -6,7 +6,7 @@
   align-items: center;
 
   a {
-    color: #142d4c;
+    color: var(--secondary-color);
     display: grid;
     place-content: center;
     font-weight: bold;
@@ -14,7 +14,7 @@
     transition: color 0.3s ease, scale 0.3s ease;
     &:hover {
       scale: 1.05;
-      color: darkblue;
+      color: rgb(3, 3, 95);
     }
   }
 

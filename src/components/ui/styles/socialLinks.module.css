@@ -1,5 +1,5 @@
 .socialLinks {
-  border-top: 10px solid white;
+  border-top: 10px solid var(--white-color);
   display: flex;
   gap: 20px;
   margin-top: 10px;
