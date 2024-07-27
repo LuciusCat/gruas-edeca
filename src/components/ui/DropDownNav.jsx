@@ -9,6 +9,17 @@ const DropDownNav = ({ items }) => {
     setIsOpen(!isOpen);
   };
 
+  const handleNavClick = (event, href) => {
+    if (href.startsWith("#")) {
+      event.preventDefault();
+      const targetId = href.substring(1);
+      const targetElement = document.getElementById(targetId);
+      if (targetElement) {
+        targetElement.scrollIntoView({ behavior: "smooth" });
+      }
+    }
+  };
+
   return (
     <nav className="dropdown-navbar">
       <button
@@ -19,7 +30,12 @@ const DropDownNav = ({ items }) => {
       {isOpen && (
         <div className="dropdown-menu">
           {items.map((item, index) => (
-            <a key={index} href={item.href} className="dropdown-item">
+            <a
+              key={index}
+              href={item.href}
+              className="dropdown-item"
+              onClick={(e) => handleNavClick(e, item.href)}
+            >
               {item.children}
             </a>
           ))}
@@ -33,6 +49,7 @@ DropDownNav.propTypes = {
   items: PropTypes.arrayOf(
     PropTypes.shape({
       href: PropTypes.string.isRequired,
+      children: PropTypes.node.isRequired,
     })
   ).isRequired,
 };
