@@ -6,7 +6,7 @@ import { images } from "../../../public/img/gruas/index";
 export default function Carousel() {
   return (
     <section className="carousel">
-      <ImageGallery items={images} autoPlay={true} />
+      <ImageGallery items={images} autoPlay={true} lazyLoad="true" />
     </section>
   );
 }
