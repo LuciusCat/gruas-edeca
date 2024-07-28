@@ -2,7 +2,11 @@ import styles from "./styles/form.module.css";
 
 export default function Form() {
   return (
-    <form action="#" className={styles.form}>
+    <form
+      action="https://formsubmit.co/cesar.antonio.g_555@hotmail.com"
+      method="POST"
+      className={styles.form}
+    >
       <fieldset>
         <legend>Déjenos un mensaje</legend>
         <label htmlFor="name">Nombre:</label>
@@ -31,6 +35,12 @@ export default function Form() {
           placeholder="Ingrese acá su mensaje"
         ></textarea>
         <button type="submit">Enviar</button>
+        <input
+          type="hidden"
+          name="_next"
+          value="http://localhost:5173/gruas-edeca"
+        />
+        <input type="hidden" name="_captcha" value="false" />
       </fieldset>
     </form>
   );
